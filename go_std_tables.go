@@ -2,6 +2,8 @@
 
 // Generated from Go versions [go1.26.0].
 
+//go:generate go run ./scripts/gen_go_std_tables.go
+
 package main
 
 // runtimeAndDeps contains the runtime package and all of its transitive dependencies
